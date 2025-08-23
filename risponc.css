@@ -1,0 +1,112 @@
+.shd {
+  text-align: center;
+
+}
+
+.header {
+  background-color: brown;
+  border: 1px solid black;
+}
+
+.navigation {
+  border: 1px solid black;
+  background-color: aqua;
+}
+
+.section {
+  display: flex;
+   
+}
+
+.Indax {
+  border: 1px solid black;
+  height: 500px;
+  width: 40%;
+  background-color: aquamarine;
+}
+
+.Content {
+  background-color: blue;
+  border: 1px solid black;
+  width: 60%;
+}
+
+.footer {
+  background-color: rgb(60, 255, 73);
+  border: 1px solid black;
+}
+
+@media screen and (max-width: 1440px) {
+
+  .header {
+    background-color: rgb(255, 0, 0);
+  }
+
+  .navigation {
+
+    background-color: rgb(0, 255, 17);
+  }
+
+  .footer {
+    background-color: blue;
+  }
+
+  .Indax {
+
+    background-color: rgb(225, 255, 0);
+  }
+
+  .Content {
+    background-color: rgb(255, 0, 179);
+
+  }
+
+  @media screen and (max-width: 768px) {
+
+    .header {
+      background-color: rgb(255, 115, 0);
+    }
+
+    .navigation {
+
+      background-color: rgb(0, 131, 9);
+    }
+
+    .footer {
+      background-color: rgb(255, 0, 0);
+    }
+
+    .Indax {
+
+      background-color: rgb(0, 225, 255);
+    }
+
+    .Content {
+      background-color: rgb(252, 99, 206);
+
+    }
+
+    @media screen and (min-width: 430px) {
+
+
+      .header {
+        background-color: rgb(0, 255, 30);
+      }
+
+      .navigation {
+        color: white;
+        background-color: rgb(0, 0, 0);
+      }
+
+      .footer {
+        background-color: rgb(251, 0, 255);
+      }
+
+      .Indax {
+
+        background-color: rgb(255, 0, 0);
+      }
+
+      .Content {
+        background-color: rgb(8, 0, 255);
+      }

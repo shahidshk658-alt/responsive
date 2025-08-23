@@ -1,0 +1,78 @@
+
+.menu {
+  float: left;
+  width: 20%;
+  
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main {
+  float: ;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+  
+}
+.right {
+  background-color: lightblue;
+  float: right;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+  display: flexbox;
+  padding-left: 100px;
+}
+
+@media only screen and (max-width:800px) {
+
+  .main {
+    width: 50%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:1024px) {
+
+ 
+  .main {
+    width: 50%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:1440px) {
+
+ 
+  .main {
+    width: 50%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:2560px) {
+
+  
+  .main {
+    width: 50%;
+    padding: 0;
+    
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+ 
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
